@@ -5,3 +5,7 @@ Answer: Git allows for multiple people to contribute to a single file simultaneo
 Q2: What field could data science be applied to? Give an Example.
 
 Answer: Data science can be useful in, for instance, medicine. Oftentimes there is a lot of data about diseases, symptoms, and what could be the source of the condition. If there was a dataset with all this information, data science can be used to extract valuable information from the pure medical data to, for example, find a correlation between a person's diet to any conditions they have, or how the conditions one grows up in affects their health compared to other conditions.
+
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: In merging, changes on the feature branch are applied to the source branch. However, any other branches connected to the source branch still believe that the older source branch is what they're connected to, which can lead to conflicts. Rebasing, on the other hand, also applies changes but changes the source branch memory for ALL branches connected to the source (so they connect to the new edited one instead of the previous).
