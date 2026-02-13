@@ -9,3 +9,7 @@ Answer: Data science can be useful in, for instance, medicine. Oftentimes there 
 Q3: What is the difference between Merging and Rebasing?
 
 Answer: In merging, changes on the feature branch are applied to the source branch. However, any other branches connected to the source branch still believe that the older source branch is what they're connected to, which can lead to conflicts. Rebasing, on the other hand, also applies changes but changes the source branch memory for ALL branches connected to the source (so they connect to the new edited one instead of the previous).
+
+Q4: What are you looking forward to this semester?
+
+Answer: Expanding my knowledge on working with large amounts of data. And also some more python practice :).
